@@ -1,0 +1,57 @@
+body{
+  margin:2px;
+  padding:2px;
+
+}
+.converter-body{
+  width: 400px;
+  height: 200px;
+  position:absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  box-shadow: 0 0 2px 1px #ff17ac;
+
+
+
+}
+.body-title{
+  background-color:purple;
+  color:pink;
+}
+.converter-title{
+  text-align: center;
+  margin: 20px;
+  color:purple;
+
+}
+input{
+  height: 25px;
+
+}
+#grad1 {
+height: 1000px;
+background-color:lightpink; /* For browsers that do not support gradients */
+background-image: linear-gradient(pink, purple);
+}
+#measure
+{
+  margin-top: 25px;
+  margin-left: 300px;
+  width: 400px;
+  color:#81004c;
+  
+}
+#input{
+  margin-left: 25px;
+}
+#inputType,#resultType
+{
+  width:166.66px;
+  margin-left: 25px;
+  color:#81004c;
+}
+#resultType
+{
+  margin-left: 12.5px;
+}
